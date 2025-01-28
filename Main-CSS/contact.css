@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 /* Upper Navigation Bar */
 #logo {
     display: flex;
@@ -80,9 +81,26 @@ label {
     padding: 2rem;
 }
 
+
 #message {
     /* Eliminates automatically added resize box */
     resize: none;
+}
+
+.entry-form {
+    display: flex;
+}
+
+#submit-btn {
+    /* rounds the corners of submit button */
+    border-radius: 10px;
+    height: auto;
+    border: none;
+    cursor: pointer;
+}
+#submit-btn:hover {
+    color: white;
+    background-color: blue;
 }
 
 #social-media {

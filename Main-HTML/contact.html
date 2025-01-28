@@ -31,25 +31,25 @@
             <div>
                 <img class="computer"  src="/Images.jpg/Computer.jpg" width="200" height="400">
             </div>
-          <form action="/submit" method="post" class="contact-info">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" placeholder="Enter your name">
+          <form action="/submit" method="post" class="contact-info" id="contact-info">
+                <label for="name" id="entry-form" class="entry-form">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
             
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder="Enter your email">
+                <label for="email" class="entry-form">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
 
-                <label for="message">I look forward to hearing from you!</label>
+                <label for="message" class="entry-form">I look forward to hearing from you!</label>
                 <textarea name="message" id="message" maxlength="300" rows="4" cols="50" placeholder="Type message here..."></textarea>
-                <div class="counter">0 / 300</div>
+                <div id="char-counter" class="counter">0 / 300</div>
             
-                <button type="submit">Send Message</button>
+                <button type="button" id="submit-btn" class="submit-btn">Send Message</button>
           </form>
         </div>
         <div id="social-media" class="social-media">
-            <a class="social" href="#" alt="github"><i class="fa-brands fa-github"></i></a>
-            <a class="social" href="#" alt="instagram"><i class="fa-brands fa-instagram"></i></a>
-            <a class="social" href="#" alt="twitter"><i class="fa-brands fa-x-twitter"></i></a>
-            <a class="social" href="#" alt="upwork"><i class="fa-brands fa-upwork"></i></a>
+            <a class="social" href="https://github.com/dashboard" alt="github"><i class="fa-brands fa-github"></i></a>
+            <a class="social" href="https://www.instagram.com/antwaun/" alt="instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a class="social" href="https://x.com/home?lang=en&mx=2" alt="twitter"><i class="fa-brands fa-x-twitter"></i></a>
+            <a class="social" href="https://www.upwork.com/nx/find-work/most-recent" alt="upwork"><i class="fa-brands fa-upwork"></i></a>
         </div>
      </section>
 
